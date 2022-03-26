@@ -271,124 +271,39 @@ img {
 
 /*--- contactenos ---*/
 
-.area-de-consulta{    
-    position: relative;
+.area-de-datos{  
+        
+    text-align: center;
+    width: fit-content;
     margin: auto;
-    width: 90%;
-    padding: 2%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 1%;
-    margin-bottom: 3%;
-}
-
-.formulario{
-    
-    margin: auto;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    width: 50%;
-    color: white;
-    float: left;
-    margin-left: 10px;
+    color: rgb(68, 64, 64);
     border: 1px solid white;
     background-color: rgb(139, 165, 167);
     box-shadow: 20px 17px 10px rgb(15, 15, 15, 0.8);
-    margin-left: 10%;
+    padding: 3%;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    padding: 10px;
-    margin-top: 1%;
-}
+.dato-item p, h1{
+    position: relative;
+    font-size: 100%;
+}   
 
-.form-item{
-    width: 100%;
-    display: flex;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    border: 0.5px solid black;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-}
 
-.form-item label{
-    margin-left: 2%;
-}
-
-.form-item input{
-    margin-left: 2%;
-
-}
-
-#nombre{
-    width: 70%;
-}
-
-#email{
-    width: 70%;
-}
-
-#lugar{
-    width: 70%;
-}
-
-#hora{
-    width: 35%;
-}
-
-#fecha{
-    width: 35%;
-} 
-#nota textarea{
-    margin-left: 2%;
-    width: 95%;
-    border: 0.5px solid black;
-}
-
-#nota{    
-    margin-bottom: 2%;
-    font-size: 1em;
-    border: 0.5px solid black;
-}
-
-#nota legend{
-    margin-left: 2%;
-    font-size: 1vw;
-}
-
-#boton{    
+.mapa{
+    position: relative;
     margin: auto;
-    text-align: center;
-    border: 0.5px solid black;
-    box-shadow: 4px 4px 4px black;
-    width: 20%;
+    align-items: center;
+    width: 60%;
 }
-
-#boton:hover{    
-    background-color: rgb(171, 171, 173);
-    font-weight: bold;
-}
-
 .mapa h2{
     color: white;
-    float: right;
-    position: relative;    
+    text-align: center;
+    position: relative;   
+    font-size: 40px; 
 }
 
 iframe{
-    width: 100%;
-    float: right;
-    position: relative;   
+    margin: auto;
     border: 2px solid black;
     box-shadow:20px 17px 10px rgb(15, 15, 15, 0.8);
 }
